@@ -38,7 +38,7 @@ def registar_reparacion(herramientas,Her_reparacion):
     else:
         print("Accion cacelada. Vuelva pronto")
         input("Presione cualquier tecla para continuar -->")
-        return herramientas
+        return herramientas,Her_reparacion
 
     while True:
             f_inicio = input("➤ Fecha de inicio (DD-MM-AAAA): ").strip()
@@ -106,10 +106,4 @@ def menu():
         else:
             print(" Opción no válida.")
             input("Presione Enter...")
-def main():
-
-    herramientas=Archivos.cargar_datos("herramientas.json")
-    Her_reparaciones= Archivos.cargar_datos("reparaciones.json")           
-
-    menu(herramientas,Her_reparaciones)
 menu()
