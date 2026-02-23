@@ -1,0 +1,26 @@
+{
+    "P1": {
+        "id_prestamo": "P1",
+        "usuario": "Miguel Acevedo",
+        "id_usuario": "01",
+        "herramienta": "Martillo",
+        "id_herramienta": "MART01",
+        "cantidad": 6,
+        "fecha_inicio": "01-02-2023",
+        "fecha_entrega": "01-04-2023",
+        "estado": "Activo",
+        "observaciones": ""
+    },
+    "P2": {
+        "id_prestamo": "P2",
+        "usuario": "Pablo Quintanilla",
+        "id_usuario": "02",
+        "herramienta": "Martillo",
+        "id_herramienta": "MART01",
+        "cantidad": 3,
+        "fecha_inicio": "02-03-2024",
+        "fecha_entrega": "03-03-2024",
+        "estado": "Activo",
+        "observaciones": ""
+    }
+}

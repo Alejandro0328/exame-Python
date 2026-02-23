@@ -1,0 +1,9 @@
+{
+    "MART01": {
+        "nombre": "Martillo",
+        "categoria": "Herramienta",
+        "stock": 10,
+        "estado": "Activo",
+        "valor": 100000.0
+    }
+}
