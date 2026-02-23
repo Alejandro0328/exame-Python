@@ -1,0 +1,9 @@
+{
+    "MART01": {
+        "id_herramienta": "MART01",
+        "nombre": "Martillo",
+        "fecha_inicio": "01-02-2024",
+        "fecha_enrega": "01-02-2024",
+        "observaciones": "ret"
+    }
+}

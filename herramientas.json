@@ -3,7 +3,28 @@
         "nombre": "Martillo",
         "categoria": "Herramienta",
         "stock": 10,
-        "estado": "Activo",
+        "estado": "Taller",
         "valor": 100000.0
+    },
+    "TALA02": {
+        "nombre": "Taladro",
+        "categoria": "Herramienta",
+        "stock": 12,
+        "estado": "Activo",
+        "valor": 1000.0
+    },
+    "PALA03": {
+        "nombre": "Pala",
+        "categoria": "Herramienta",
+        "stock": 11,
+        "estado": "Activo",
+        "valor": 8988.0
+    },
+    "MAZO04": {
+        "nombre": "Mazo",
+        "categoria": "Herramienta",
+        "stock": 11,
+        "estado": "Activo",
+        "valor": 10000.0
     }
 }
