@@ -10,7 +10,7 @@
         "nombre": "Taladro",
         "categoria": "Herramienta",
         "stock": 12,
-        "estado": "Activo",
+        "estado": "Taller",
         "valor": 1000.0
     },
     "PALA03": {

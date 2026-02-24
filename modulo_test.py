@@ -51,18 +51,18 @@ def registar_reparacion(herramientas,Her_reparacion):
                 print(" La fecha de entrega no puede ser anterior al inicio.")
             else:
                 print(" Fecha inválida.")
-    for id_H, info in herramientas.items():
-                obs=input("Observaciones: ")
-                Her_reparacion[id_H] ={
+    # for id_H, info in herramientas.items():
+            obs=input("Observaciones: ")
+            Her_reparacion[id_H] ={
                     "id_herramienta": id_H,
-                    "nombre": info['nombre'],
+                    "nombre": herramientas[id_H]['nombre'],
                     "fecha_inicio": f_inicio,
                     "fecha_enrega": f_entrega,
                     "observaciones": obs
         }
-                Archivos.guardar_datos(Her_reparacion,"reparaciones.json")
-                Archivos.guardar_datos(herramientas,"herramientas.json")
-                return herramientas,Her_reparacion
+    Archivos.guardar_datos(Her_reparacion,"reparaciones.json")
+    Archivos.guardar_datos(herramientas,"herramientas.json")
+    return herramientas,Her_reparacion
 def mostrar_reparaciones(Reparaciones):
     menus.limpiar_pantalla()
     print(" -------------HERRAMIENTAS EN REPARACION--------------- ".center(90))
